@@ -83,7 +83,7 @@ wn.onkeypress(paddle_a_down, "s")
 wn.onkeypress(paddle_b_up, "Up")
 wn.onkeypress(paddle_b_down, "Down")
 
-#main game loop
+#main game loop #MORE COMMENT
 while True:
     wn.update()
 
