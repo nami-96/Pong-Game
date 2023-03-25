@@ -148,3 +148,6 @@ while True:
 
     def print_create_world():
         print("create, World!")
+        
+    def print_destroy_world():
+        print("destroy, World!")
