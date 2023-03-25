@@ -122,7 +122,7 @@ while True:
         color_index = (color_index + 1) % len(colors)
         ball.color(colors[color_index])
 
-    #paddle collision
+    #paddle collision #blabalabnal
     if (ball.xcor() > 340 and ball.xcor() < 350) and (ball.ycor() < paddle_b.ycor() + 40 and ball.ycor() > paddle_b.ycor() -50):
         ball.setx(340)
         ball.dx *= -1
