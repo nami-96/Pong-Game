@@ -145,3 +145,6 @@ while True:
 
     def print_hello_world():
         print("Hello, World!")
+        
+    def print_destroy_world():
+        print("destroy, World!")
