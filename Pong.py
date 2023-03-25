@@ -93,7 +93,7 @@ while True:
 
     #Border Checking
     if ball.ycor() > 290: #upper y border
-        ball.sety(290)
+        ball.sety(999999)
         ball.dy *= -1
         color_index = (color_index + 1) % len(colors)
         ball.color(colors[color_index])
