@@ -1,0 +1,3 @@
+name=nabil
+age=8
+fav_food=paperclips
